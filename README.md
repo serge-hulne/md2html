@@ -3,10 +3,12 @@ Markdown to html : Intended to enable writing articles for publication on e.g, o
 
 # Usage 
 
+```
 - Requires Crystal programming language
 - Optionnally uses "Pure CSS" as CDN.
 - git clone https://github.com/serge-hulne/md2html
 - cd md2html
 - shards install 
 - ./md2html mydocument.md //for stdout
-- ./md2html mydocument.md > mydocument.html //for outut in a file
+- ./md2html mydocument.md > mydocument.html //for output in a file
+```
