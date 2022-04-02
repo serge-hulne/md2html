@@ -12,17 +12,19 @@ module Md2html
         puts "No Markdown file specified as argument"
     else 
         md = ARGV[0]
+        begin
+            # reading input file
+            text = File.open(md, encoding: "UTF-8") do |file|
+            file.gets_to_end
+            end
+            # Conveting Md to html
+            html = Markd.to_html(text) 
 
-        # reading input file
-        text = File.open(md, encoding: "UTF-8") do |file|
-          file.gets_to_end
+            # Wrapping raw html in template for styling parts of text
+            puts Template.template(html)
+        rescue
+            puts "File not found: #{md}"
         end
-
-        # Conveting Md to html
-        html = Markd.to_html(text) 
-
-        # Wrapping raw html in template for styling parts of text
-        puts Template.template(html)
     end
 end
     
