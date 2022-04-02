@@ -14,4 +14,6 @@ Markdown to html : Intended to enable writing articles for publication on, e.g. 
 - ./md2html mydocument.md > mydocument.html //for output in a file
 ```
 
+OS: Mac / Linux / Windows (with MingW).
+
 The resulting html file can be copy and pasted in an empty e.g. Medium.com story or on social media, etc.
