@@ -1,5 +1,5 @@
 # md2html
-Markdown to html : Intended to enable writing articles for publication on e.g, on Medium (or on social media) in markdown (by converting md to html)
+Markdown to html : Intended to enable writing articles for publication on, e.g. Medium (or on social media) in markdown (by converting md to html)
 
 # Usage 
 
