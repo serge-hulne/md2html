@@ -4,7 +4,7 @@ Markdown to html : Intended to enable writing articles for publication on, e.g. 
 # Usage 
 
 ```
-- Requires Crystal programming language
+- Requires: Crystal programming language
 - (Uses "mark internally" (automatically requested via shard.yml))
 - Optionnally uses "Pure CSS" as CDN.
 - git clone https://github.com/serge-hulne/md2html
